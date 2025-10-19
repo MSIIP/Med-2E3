@@ -1,0 +1,47 @@
+from src.model.encoder.connector.identity import IdentityConnector
+from src.model.encoder.connector.linear import LinearConnector
+from src.model.encoder.connector.mlp import MLPConnector
+from src.model.encoder.connector.pooling import (
+    PlanePoolingConnector,
+    SpatialPoolingConnector,
+    SpatialPoolingScoreConnector,
+    SpatialPoolingScore1Connector,
+    SpatialPoolingScore2Connector,
+    SpatialPoolingScore3Connector,
+    SpatialPoolingScore4Connector,
+    SpatialPoolingScore5Connector,
+    SpatialPoolingScore6Connector,
+    SpatialPoolingScore7Connector,
+    SpatialPoolingScore8Connector,
+    SpatialPoolingScore9Connector,
+    SpatialPoolingScore10Connector,
+    SpatialPoolingScore11Connector,
+    SpatialPoolingScore12Connector,
+    SpatialPoolingScore13Connector,
+    SpatialPoolingScore14Connector,
+    SpatialPoolingScore15Connector,
+)
+
+CONNECTOR_FACTORY = {
+    "identity": IdentityConnector,
+    "linear": LinearConnector,
+    "mlp2x_gelu": MLPConnector,
+    "plane_pooling_mlp2x_gelu": PlanePoolingConnector,
+    "spatial_pooling_mlp2x_gelu": SpatialPoolingConnector,
+    "spatial_pooling_score_mlp2x_gelu": SpatialPoolingScoreConnector,
+    "spatial_pooling_score1_mlp2x_gelu": SpatialPoolingScore1Connector,
+    "spatial_pooling_score2_mlp2x_gelu": SpatialPoolingScore2Connector,
+    "spatial_pooling_score3_mlp2x_gelu": SpatialPoolingScore3Connector,
+    "spatial_pooling_score4_mlp2x_gelu": SpatialPoolingScore4Connector,
+    "spatial_pooling_score5_mlp2x_gelu": SpatialPoolingScore5Connector,
+    "spatial_pooling_score6_mlp2x_gelu": SpatialPoolingScore6Connector,
+    "spatial_pooling_score7_mlp2x_gelu": SpatialPoolingScore7Connector,
+    "spatial_pooling_score8_mlp2x_gelu": SpatialPoolingScore8Connector,
+    "spatial_pooling_score9_mlp2x_gelu": SpatialPoolingScore9Connector,
+    "spatial_pooling_score10_mlp2x_gelu": SpatialPoolingScore10Connector,
+    "spatial_pooling_score11_mlp2x_gelu": SpatialPoolingScore11Connector,
+    "spatial_pooling_score12_mlp2x_gelu": SpatialPoolingScore12Connector,
+    "spatial_pooling_score13_mlp2x_gelu": SpatialPoolingScore13Connector,
+    "spatial_pooling_score14_mlp2x_gelu": SpatialPoolingScore14Connector,
+    "spatial_pooling_score15_mlp2x_gelu": SpatialPoolingScore15Connector,
+}
