@@ -1,15 +1,18 @@
-# Med-2E3: Medical Multi-modal Large Language Model (BIBM2025)
+# Med-2E3: A 2D-Enhanced 3D Medical Multimodal Large Language Model (BIBM2025)
 
 [![arXiv](https://img.shields.io/badge/Arxiv-2411.12783-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2411.12783) [![hf_space](https://img.shields.io/badge/🤗-%20Open%20In%20HF-blue.svg)](https://huggingface.co/shiym2000/Med-2E3-M3D) [![License](https://img.shields.io/badge/License-Apache%202.0-yellow)](./LICENSE)
 
-![architecture](./assets/architecture.pdf)
+![architecture](./assets/architecture.png)
 
 Med-2E3 is the first 3D medical MLLM to integrate a dual 3D-2D encoder architecture.
 
 
 ## :newspaper: News
-+ **[2025.10.20]**: The code and model weights have been released on GitHub.
++ **[2025.10.20]**: Model weights have been released on Hugging Face.
+  + [shiym2000/Med-2E3-M3D · Hugging Face](https://huggingface.co/shiym2000/Med-2E3-M3D)
++ **[2025.10.20]**: The code has been released on GitHub.
 + **[2025.10.05]**: Med-2E3 has been accepted by BIBM2025.
+  + [\[2411.12783\] Med-2E3: A 2D-Enhanced 3D Medical Multimodal Large Language Model](https://arxiv.org/abs/2411.12783)
 
 
 ## :package: Installation
