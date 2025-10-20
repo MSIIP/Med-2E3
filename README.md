@@ -4,7 +4,7 @@
 
 ![architecture](./assets/architecture.png)
 
-Med-2E3 is the first 3D medical MLLM to integrate a dual 3D-2D encoder architecture.
+Inspired by clinical practice, where radiologists focus on both 3D spatial structure and 2D planar content, we propose **Med-2E3**, a 3D medical MLLM that integrates a dual 3D-2D encoder architecture. To aggregate 2D features effectively, we design a Text-Guided Inter-Slice (**TG-IS**) scoring module, which scores the attention of each 2D slice based on slice contents and task instructions. To the best of our knowledge, Med-2E3 is the **first** MLLM to integrate both 3D and 2D features for 3D medical image analysis.
 
 
 ## :newspaper: News
