@@ -166,8 +166,8 @@ bash scripts/eval/eval_m3d_vqa_open.sh
 
 ``` bibtex
 @article{shi2024med,
-  title={Med-2E3: A 2D-enhanced 3D medical multimodal large language model},
-  author={Shi, Yiming and Zhu, Xun and Hu, Ying and Guo, Chenyi and Li, Miao and Wu, Ji},
+  title={Med-2e3: A 2d-enhanced 3d medical multimodal large language model},
+  author={Shi, Yiming and Zhu, Xun and Wang, Kaiwen and Hu, Ying and Guo, Chenyi and Li, Miao and Wu, Ji},
   journal={arXiv preprint arXiv:2411.12783},
   year={2024}
 }
