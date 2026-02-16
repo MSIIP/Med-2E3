@@ -165,11 +165,13 @@ bash scripts/eval/eval_m3d_vqa_open.sh
 ## :book: Citation
 
 ``` bibtex
-@article{shi2024med,
+@inproceedings{shi2025med,
   title={Med-2e3: A 2d-enhanced 3d medical multimodal large language model},
   author={Shi, Yiming and Zhu, Xun and Wang, Kaiwen and Hu, Ying and Guo, Chenyi and Li, Miao and Wu, Ji},
-  journal={arXiv preprint arXiv:2411.12783},
-  year={2024}
+  booktitle={2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages={2754--2759},
+  year={2025},
+  organization={IEEE}
 }
 ```
 
